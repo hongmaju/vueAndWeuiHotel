@@ -25,14 +25,6 @@ new Vue({
 		.catch(function (error) {
 		console.log(error);
 		});
-
-
-
-			 // let _this=this;
-    //         this.$http.get("Data/goPics.json").then(res=> {
-    //             this.imgs=res.body.result. productList;
-    //         //this.totalMoney=res.body.result.totalMoney;
-    //         });
 		}
 	}
 });
