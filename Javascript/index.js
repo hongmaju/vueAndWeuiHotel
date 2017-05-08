@@ -3,7 +3,7 @@ new Vue({
 	data:{
 		pic:[],
         
-        now:""
+        now:"Images/1.jpg"
 		// imgs[]
 	},
 	mounted:function(){
