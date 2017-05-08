@@ -2,7 +2,7 @@ new Vue({
 	el:".top",
 	data:{
 		pic:[],
-        
+
         now:"Images/1.jpg"
 		// imgs[]
 	},
@@ -27,7 +27,7 @@ new Vue({
 				//alert(this.pic.data[0].url)
  				 var _this=this;
 	 			setInterval(function(){
-			      
+
 			        if(i>=_this.pic.data.length){
 			        i=0;
 		       		}
@@ -46,3 +46,5 @@ new Vue({
 
 	}
 });
+
+
