@@ -23,7 +23,7 @@ new Vue({
 			})
 			.then(function (response) {
 				this.pic=response;
-			let i=0;
+			var i=0;
 				//alert(this.pic.data[0].url)
  				 var _this=this;
 	 			setInterval(function(){
@@ -43,5 +43,6 @@ new Vue({
 				console.log(error);
 			});
 		}
+
 	}
 });
