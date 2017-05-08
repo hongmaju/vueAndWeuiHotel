@@ -32,10 +32,12 @@ new Vue({
 			        i=0;
 		       		}
 		       		 _this.now=_this.pic.data[i].url;
+		       		 var element = document.getElementById('moveImgs');
+				     element.src =  _this.now;
 		       		//Vue.set(_this.now, i,_this.pic.data[i].url);
 		       		console.log(_this.now);
 		       		 i++;
-		     },1000);
+		     },2000);
 			})
 			.catch(function (error) {
 				console.log(error);
